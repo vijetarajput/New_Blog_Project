@@ -6,6 +6,7 @@ import { login, logout } from "./store/authSlice";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import { Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function App() {
   const [loading, setLoading] = useState(true);
